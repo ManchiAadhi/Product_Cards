@@ -1,0 +1,104 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+#main-container {
+    display: flex;
+    flex-direction: row;
+    height: 100vh;
+    width: 100vw;
+    /* flex-wrap: wrap; */
+    justify-content: center;
+    align-items: center;
+}
+
+#parent-container {
+    height: 80%;
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    background-color: rgb(242, 246, 248)
+}
+
+#allcards {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(242, 246, 248);
+    height: 250px;
+    width: 200px;
+    border-radius: 10px;
+    margin: 1%;
+
+}
+.card:hover{
+    background-color: rgb(149, 203, 228);
+    padding: 10px;
+    border-radius: 15px;
+    transition: 0.5s;
+    transform: rotate(-5deg);
+    cursor:-webkit-grab;
+    
+}
+.mainimage {
+    height: 200px;
+    width: 160px;
+    background-color: white;
+    border-radius: 5px;
+
+}
+
+.image {
+    height: 140px;
+    width: 160px;
+
+}
+
+.iconbox {
+    display: flex;
+    flex-direction: row;
+
+
+}
+
+.percentage {
+    margin-right: 45px;
+    margin-left: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding-left: 5px;
+    padding-right: 5px;
+    height: 20px;
+    width: 30px;
+    background-color: rgb(232, 223, 223);
+    border-radius: 2px;
+    align-self: center;
+}
+
+.iconimage {
+    margin-left: 35px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    height: 20px;
+    width: 20px;
+    background-color: rgb(232, 223, 223);
+    border-radius: 2px;
+}
+
+.bottom{
+padding-right: 40%;
+}
+.numberid{
+color: rgb(71, 50, 50);
+}
